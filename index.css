@@ -512,6 +512,9 @@ label{
     padding: 0em !important;
     height: auto !important;
 }
+.close{
+  width: 3em
+}
 .modal-body>.carousel>.carousel-inner>.carousel-item>.img-fluid{
  height:30em;
  width: 100%;
