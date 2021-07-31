@@ -492,35 +492,61 @@ label{
     text-align: center;
 }
 .project1{
-   margin-bottom: 2em 
+   margin-bottom: 2em ;
+    overflow: hidden;
+    
 }
-.project1>div>.img-fluid{
+.hov{
+    text-align: center;
     width: 100%;
-    height: 15em
+    height: 25em;
+    background: #F8F9FA;
+            top: 0px;
+            position: absolute;
+            opacity: 0;
+            display: block;
+            font-size: 13px;
+            transition: 0.3s;
+            -webkit-transition: .5s;
+            -moz-transition: .5s;
+}
+.hov>p{
+    margin-bottom: 4em;
+    color: #00A0CE;
+    font-size: 1.4em
+}
+.hov>h4{
+    margin-top: 2em;
+    margin-bottom: 1em
+}
+.hov>a>.btn{
+    border: 2px solid #00A0CE;
+    color: #00A0CE;
+}
+.hov>a>button:hover{
+    color: #00A0CE
+}
+.hov>a>button>.material-icons{
+   position: relative;
+    top: .3em;
+    margin-right: .5em;
+}
+.project1:hover .hov{
+    opacity: 1
+}
+.project1>.carousel>.carousel-inner>.carousel-item>.img-fluid{
+    width: 100%;
+    height: 20em !important;
 }
 .project2{
-   margin-bottom: 2em 
+   margin-bottom: 2em;
 }
-.project2>div>.img-fluid{
+.project2>.carousel>.carousel-inner>.carousel-item>.img-fluid{
     width: 100%;
-    height: 15em
+    height: 20em
 }
 .project3{
     
-}
-.modal-body{
-    padding: 0em !important;
-    height: auto !important;
-}
-.close{
-  width: 3em
-}
-.modal-body>.carousel>.carousel-inner>.carousel-item>.img-fluid{
- height:30em;
- width: 100%;
-}
-.modal{
-  max-height: 28em!important;
 }
 @keyframes shake {
     0% {
