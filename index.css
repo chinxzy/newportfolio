@@ -308,6 +308,11 @@ a.article:hover {
 
 .about>h1 {
     padding: 2em;
+    animation-duration: 5s
+}
+.animate__backInDown{
+    --animation-delay:6s;
+    --animate-repeat: 2;
 }
 
 .about>.col-lg-3 {
@@ -441,6 +446,8 @@ a.article:hover {
     padding: 0em !important;
     box-shadow: 0px 1px 6px 0px;
     border-radius: 2em 0em 2em 0em;
+    animation: bounce;
+    animation-duration: 2s
 }
 
 .text {
