@@ -1,6 +1,7 @@
 [data-theme="dark"] {
-  background-color: #111 !important;
+  background-color: #171B27 !important;
   color: #fff;
+
 }
 [data-theme="dark"] .main{
   background-image: url ("images/5053309.jpg")
@@ -24,7 +25,7 @@
   background-color: #eee !important;
 }
 [data-theme=dark] .skills{
-  background-color: #363636 !important;
+  background-color: #131522 !important;
 }
 [data-theme=dark] .skill_content{
   box-shadow: black 0px 1px 6px 0px;

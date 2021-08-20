@@ -14,14 +14,16 @@
     width: 100%
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
 html {
     width: 100%;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 body {
-    font-family: helvetica;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .navbar {
@@ -31,6 +33,7 @@ body {
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: "Ubuntu", sans-serif;
 }
 
 .navbar-btn {
@@ -63,6 +66,7 @@ body {
     transition: all 0.3s;
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: "Ubuntu", sans-serif;
 }
 #sidebarCollapse{
     background-color: #F8F9FA;
@@ -203,6 +207,7 @@ a.article:hover {
     transition: all 0.3s;
     top: 0;
     right: 0;
+    font-family: "Ubuntu", sans-serif;c
 }
 
 .main {
@@ -322,7 +327,8 @@ a.article:hover {
 .who{
    text-align: left;
     font-weight: bold;
-    margin-bottom: 2em
+    margin-bottom: 2em;
+    line-height: 2em
 }
 .wrietup{
     margin-bottom: 3em;
@@ -338,7 +344,8 @@ a.article:hover {
 .why{
      text-align: left;
     font-weight: bold;
-    margin-bottom: 2em
+    margin-bottom: 2em;
+    line-height: 2em
 }
 .about>.col-lg-3 {
     margin-bottom: 6em;
@@ -458,18 +465,22 @@ a.article:hover {
 .skills {
     margin-top: 3em;
     padding: 1.5em;
-    overflow: hidden
+    overflow: hidden;
+    font-family: "Ubuntu", sans-serif;
 }
 .skills>h1{
     padding: 2em;
     text-align: center
 }
-.skill_list>ul{
-    list-style: none;
+.skills\&tools{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 2em;
+    line-height: 2em
 }
-.skill_list>ul>li{
-    display: inline;
-    margin: 2em;
+.languages,.framework,.tools{
+    font-size: 1.1em;
+    margin-bottom: 1em
 }
 .contact{
     background-image: url("images/5053309.jpg");
