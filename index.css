@@ -558,6 +558,9 @@ label{
     width: 100%;
     height: 20em !important;
 }
+.project2_wrapper{
+    overflow: hidden
+}
 .project2{
    margin-bottom: 2em;
 }
@@ -565,8 +568,33 @@ label{
     width: 100%;
     height: 20em
 }
-.project3{
-    
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul {
+  padding: 20px;
+}
+#paging {
+  padding: 0 20px 20px 20px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+#paging a {
+  color: #fff;
+  background: #262a38;
+  padding: 0.6em;
+  margin-right: 5px;
+  text-decoration: none;
+}
+#paging a.aktif {
+  background: #fff !important;
+  color: #171B27;
+}
+
+.hidden {
+  display: none;
 }
 @keyframes shake {
     0% {

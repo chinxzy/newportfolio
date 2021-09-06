@@ -24,6 +24,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   >
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="assets/tether/tether.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -210,6 +211,8 @@ All the skills and tools I use, <br> are self-taught over many years of practice
         </div>
         <div class="container-fluid projects" id="projects">
             <h1>PROJECTS</h1>
+            <ul id="myList">
+                <li>
                     <div class="col-12 col-sm-12 col-lg-12 col-md-12 project_wrapper">
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 project1">
                             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -244,7 +247,10 @@ All the skills and tools I use, <br> are self-taught over many years of practice
                                 This is a dynamic, well responsive website for an electric contracting comapny based in nigeria to help give them an online presence.
                              </p>
                         </div>
-        </div>
+                    </div>
+                </li>
+            <li>
+    <div class="project2_wrapper">
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 project2">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -270,9 +276,12 @@ All the skills and tools I use, <br> are self-taught over many years of practice
                 <buttton class="btn">visit site</buttton>
              </p>
         </div>
+    </div>
+    </li>
+</ul>
 
-                    </div>
-                </div>
+
+    </div>
   
 
         <!--/contact-->
@@ -361,6 +370,14 @@ All the skills and tools I use, <br> are self-taught over many years of practice
   AOS.init({
         duration:500,
         easing: 'ease-in-out-sine'
+      });
+    </script>
+    <script src="paging.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("#myList").JPaging({
+          pageSize: 1
+        });
       });
     </script>
 </body>
