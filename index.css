@@ -574,7 +574,7 @@ label{
     border: 2px solid #f4460b;
     padding: 0.2em;
     border-radius: 100px;
-    margin-right: 1em
+    margin-right: 0.2em;
 }
 .project_info>.button>.css{
    background-color:#1B84C1;
@@ -582,7 +582,7 @@ label{
     border: 2px solid #1B84C1;
     padding: 0.2em;
     border-radius: 100px;
-    margin-right: 1em
+    margin-right: 0.2em
     
 }
 .project_info>.button>.bt{
@@ -591,7 +591,7 @@ label{
     border: 2px solid #7010EF;
     padding: 0.2em;
     border-radius: 100px;
-    margin-right: 1em
+    margin-right: 0.2em
 }
 .project_info>.button>.php{
     background-color: #4C588D;
@@ -599,7 +599,7 @@ label{
     border: 2px solid #4C588D;
     padding: 0.2em;
     border-radius: 100px;
-    margin-right: 1em
+    margin-right: 0.2em;
 }
 .project_info>.button>.c{
     background-color: #960238;
@@ -607,7 +607,7 @@ label{
     border: 2px solid #960238;
     padding: 0.2em;
     border-radius: 100px;
-    margin-right: 1em
+    margin-right: 0.2em;
 }
 .project_info>.button>.js{
     background-color: #998B12;
@@ -615,7 +615,17 @@ label{
     border: 2px solid #998B12;
     padding: 0.2em;
     border-radius: 100px;
-    margin-right: 1em
+    margin-right: 0.2em
+}
+@media only screen and (max-width: 600px){
+    .project_info>.button>.js{
+        position: relative;
+        top: 1em
+    }
+    .call{
+        position: relative;
+        top: 1em
+    }
 }
 .project2_wrapper{
     overflow: hidden
@@ -656,8 +666,11 @@ label{
 }
 .hov1>a>button>.material-icons{
    position: relative;
-    top: .3em;
+    top: .2em;
     margin-right: .5em;
+}
+.fa-github{
+    font-size: 1.7em
 }
 .project2:hover .hov1{
     opacity: 1
