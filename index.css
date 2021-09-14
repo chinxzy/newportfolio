@@ -130,6 +130,9 @@ body {
     padding: 20px 0;
     border-bottom: 1px solid #47748b;
 }
+#sidebar ul.components>span>img{
+    height: 3em
+}
 
 #sidebar ul p {
     color: #000;
