@@ -43,8 +43,8 @@ body {
     border: none;
 }
 .fa-sun{
-    color: orange;
-    font-size: 1.5em
+    color: darkorange;
+    font-size: 1.5em;
 }
 label{
     color: black !important;
@@ -633,6 +633,16 @@ label{
     .call{
         position: relative;
         top: 1em
+    }
+}
+@media (min-width: 372px) and (max-width: 601px){
+    .project_info>.button>.js{
+        position: relative;
+        top: 1em
+    }
+    .call{
+        position: relative;
+        top: 0em
     }
 }
 .project2_wrapper{
