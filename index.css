@@ -42,7 +42,13 @@ body {
     outline: none !important;
     border: none;
 }
-
+.fa-sun{
+    color: darkorange;
+    font-size: 1.5em;
+}
+label{
+    color: black !important;
+}
 .line {
     width: 100%;
     height: 1px;

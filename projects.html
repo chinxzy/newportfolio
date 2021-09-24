@@ -1,16 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>
+		How to toggle a boolean
+		using JavaScript?
+	</title>
 </head>
+
 <body>
-    <div class="container">
-        <p>to go</p>
-        <p>to stay</p>
-        <p>to fuck</p>
-    </div>
+	<h1 style="color: green">
+		GeeksforGeeks
+	</h1>
+	
+	<b>
+		How to toggle a boolean
+		using JavaScript?
+	</b>
+	
+	<p>
+		The boolean is toggled whenever
+		the button is pressed.
+	</p>
+	
+	<p>
+		See the console for
+		the output
+	</p>
+
+	<button onclick="toggle()">
+		Toggle Bool
+	</button>
+	
+	<script>
+		let testBool = true;
+		
+		
+	
+		function toggle() {
+			testBool = !testBool;
+			
+			if (testBool==true) {
+			console.log ("true");
+		} else{
+			console.log ("false");
+		}
+		}
+		
+	</script>
 </body>
+
 </html>

@@ -1,12 +1,6 @@
-const darkSwitch = document.getElementById('darkSwitch');
-window.addEventListener('load', () => {
-  if (darkSwitch) {
-    initTheme();
-    darkSwitch.addEventListener('change', () => {
-      resetTheme();
-    });
-  }
-});
+let darkSwitch = document.getElementById('darkSwitch');
+let click = document.getElementById('darkSwitch').clicked=true;
+
 
 
 /**
@@ -20,13 +14,16 @@ window.addEventListener('load', () => {
  * 'data-theme' attribute will not be set.
  * @return {void}
  */
+
 function initTheme() {
-  const darkThemeSelected =
-    localStorage.getItem('darkSwitch') !== null &&
-    localStorage.getItem('darkSwitch') === 'dark';
-  darkSwitch.checked = darkThemeSelected;
-  darkThemeSelected ? document.body.setAttribute('data-theme', 'dark') :
-    document.body.removeAttribute('data-theme');
+  click = !click;
+     if (click==true) {
+      document.body.setAttribute('data-theme', 'dark') ;
+      document.getElementById("darkSwitch").className = "fa fa-moon";
+     } else {
+      document.body.removeAttribute('data-theme', 'dark') ;
+      document.getElementById("darkSwitch").className = "fa fa-sun";
+     }
 }
 
 
@@ -37,7 +34,7 @@ function initTheme() {
  * @return {void}
  */
 function resetTheme() {
-  if (darkSwitch.checked) {
+  if (darkSwitch.click) {
     document.body.setAttribute('data-theme', 'dark');
     localStorage.setItem('darkSwitch', 'dark');
   } else {

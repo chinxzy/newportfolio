@@ -3,6 +3,10 @@
   color: #fff;
 
 }
+[data-theme="dark"] .fa-moon{
+  color: goldenrod;
+  font-size: 1.5em;
+}
 [data-theme="dark"] .main{
   background-image: url ("images/5053309.jpg")
 }
