@@ -1,0 +1,36 @@
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js. (Reason: CORS request did not succeed).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://code.jquery.com/jquery-3.3.1.slim.min.js. (Reason: CORS request did not succeed).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js. (Reason: CORS request did not succeed).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js. (Reason: CORS request did not succeed).
+None of the “sha384” hashes in the integrity attribute match the content of the subresource. newportfolio
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://code.jquery.com/jquery-3.3.1.slim.min.js. (Reason: CORS request did not succeed).
+None of the “sha384” hashes in the integrity attribute match the content of the subresource. newportfolio
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js. (Reason: CORS request did not succeed).
+None of the “sha384” hashes in the integrity attribute match the content of the subresource. newportfolio
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js. (Reason: CORS request did not succeed).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js. (Reason: CORS request did not succeed).
+None of the “sha384” hashes in the integrity attribute match the content of the subresource. newportfolio
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js. (Reason: CORS request did not succeed).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js. (Reason: CORS request did not succeed).
+None of the “sha384” hashes in the integrity attribute match the content of the subresource. newportfolio
+Uncaught ReferenceError: $ is not defined
+    <anonymous> http://localhost/newportfolio/index.js:1
+index.js:1:1
+Uncaught ReferenceError: jQuery is not defined
+    <anonymous> http://localhost/newportfolio/paging.js:236
+paging.js:236:1
+Uncaught ReferenceError: $ is not defined
+    <anonymous> http://localhost/newportfolio/:418
+newportfolio:418:7
+console.log(click)
+undefined
+var = click;
+Uncaught SyntaxError: missing variable name debugger eval code:1:4
+var click = darkSwitch.clicked;
+Uncaught SyntaxError: redeclaration of let click
+    <anonymous> debugger eval code:1
+debugger eval code:1:1
+var click = true;
+Uncaught SyntaxError: redeclaration of let click
+    <anonymous> debugger eval code:1
+debugger eval code:1:1

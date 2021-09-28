@@ -20,7 +20,14 @@
 		The boolean is toggled whenever
 		the button is pressed.
 	</p>
-	
+	window.onload = function checkClick() {
+		const darkThemeSelected =
+		  localStorage.getItem('click') == true &&
+		  localStorage.getItem('darkSwitch') === 'dark';
+		darkSwitch.clicked = darkThemeSelected;
+		darkThemeSelected ? document.body.setAttribute('data-theme', 'dark') :
+		  document.body.removeAttribute('data-theme');
+	  }
 	<p>
 		See the console for
 		the output
