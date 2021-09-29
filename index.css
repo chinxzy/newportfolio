@@ -633,6 +633,20 @@ label{
         top: 1em
     }
 }
+@media (min-width: 372px) and (max-width: 600px){
+    .project_info>.button>.php{
+        position: relative;
+        top: 0em
+    }
+   
+}
+@media (min-width: 267px) and (max-width: 323px){
+    .project_info>.button>.bt{
+        position: relative;
+        top: 1em
+    }
+   
+}
 .project2_wrapper{
     overflow: hidden
 }

@@ -1,17 +1,17 @@
 var darkSwitch = document.getElementById('darkSwitch');
 var click = darkSwitch.clicked;
-var load =localStorage.getItem("setTheme");
 
   
 
 /**
  * Summary: function that adds or removes the attribute 'data-theme' depending if
- * the switch is 'on' or 'off'.
- *
+ * the value of click is 'true' or 'false'.
+ * 
  */
 
 function initTheme() {
   click = !click;
+  
   localStorage.setItem("setTheme", click);
   
      if (click==true) {
