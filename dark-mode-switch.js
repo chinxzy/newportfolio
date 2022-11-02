@@ -1,7 +1,7 @@
 var darkSwitch = document.getElementById('darkSwitch');
 var click = darkSwitch.clicked;
 
-  
+
 
 /**
  * Summary: function that adds or removes the attribute 'data-theme' depending if
@@ -11,26 +11,26 @@ var click = darkSwitch.clicked;
 
 function initTheme() {
   click = !click;
-  
+
   localStorage.setItem("setTheme", click);
-  
-     if (click==true) {
-      document.body.setAttribute('data-theme', 'dark') ;
-      document.getElementById("darkSwitch").className = "fa fa-moon";
-     } else if(click==false) {
-      document.body.removeAttribute('data-theme', 'dark') ;
-      document.getElementById("darkSwitch").className = "fa fa-sun";
-     }
-     
-     
+
+  if (click == true) {
+    document.body.setAttribute('data-theme', 'dark');
+    document.getElementById("darkSwitch").className = "fa fa-sun";
+  } else if (click == false) {
+    document.body.removeAttribute('data-theme', 'dark');
+    document.getElementById("darkSwitch").className = "fa fa-moon";
+  }
+
+
 }
 function checkClicked() {
-  if (localStorage.getItem("setTheme") =="true") {
-    document.body.setAttribute('data-theme', 'dark') ;
+  if (localStorage.getItem("setTheme") == "true") {
+    document.body.setAttribute('data-theme', 'dark');
+    document.getElementById("darkSwitch").className = "fa fa-sun";
+  } else {
+    document.body.removeAttribute('data-theme', 'dark');
     document.getElementById("darkSwitch").className = "fa fa-moon";
-  } else  {
-    document.body.removeAttribute('data-theme', 'dark') ;
-      document.getElementById("darkSwitch").className = "fa fa-sun";
   }
 }
 /**

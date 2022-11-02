@@ -49,6 +49,10 @@ body {
     font-size: 1.5em;
 }
 
+.custom-control {
+    cursor: pointer;
+}
+
 .line {
     width: 100%;
     height: 1px;
@@ -225,7 +229,7 @@ a.article:hover {
     top: 0;
     right: 0;
     font-family: "Ubuntu", sans-serif;
-    c
+
 }
 
 .main {
@@ -531,6 +535,7 @@ input {
 textarea {
     background-color: transparent !important;
     border: 2px solid #b08b48 !important;
+    color: #fff !important;
 }
 
 label {
@@ -554,8 +559,8 @@ label {
 
 .hov {
     text-align: center;
-    width: 100%;
-    height: 25em;
+    width: 81%;
+    height: 20em;
     background: #F8F9FA;
     top: 0px;
     position: absolute;
@@ -638,6 +643,34 @@ label {
     margin-right: 0.2em
 }
 
+.project_info>.button>.sass {
+    background-color: #C66394;
+    color: white;
+    border: 2px solid #C66394;
+    padding: 0.2em;
+    border-radius: 100px;
+    margin-right: 0.2em
+}
+
+.project_info>.button>.vue {
+    background-color: #3EB27F;
+    color: white;
+    border: 2px solid #3EB27F;
+    padding: 0.2em;
+    border-radius: 100px;
+    margin-right: 0.2em
+}
+
+.project_info>.button>.ts {
+    background-color: #2570BE;
+    color: white;
+    border: 2px solid #2570BE;
+    padding: 0.2em;
+    border-radius: 100px;
+    margin-right: 0.2em
+}
+
+
 .project1>.carousel-item>.img-fluid,
 .project2>.carousel-item>.img-fluid {
     height: 15em !important;
@@ -707,10 +740,11 @@ label {
     margin-bottom: 2em;
 }
 
-.hov1 {
+.hov1,
+.hov3 {
     text-align: center;
-    width: 100%;
-    height: 25em;
+    width: 81%;
+    height: 20em;
     background: #F8F9FA;
     top: 0px;
     position: absolute;
@@ -722,9 +756,16 @@ label {
     -moz-transition: .5s;
 }
 
+
 .hov1>p {
     margin-bottom: 4em;
     color: orangered;
+    font-size: 1.4em
+}
+
+.hov3>p {
+    margin-bottom: 4em;
+    color: #8C01B8;
     font-size: 1.4em
 }
 
@@ -734,16 +775,32 @@ label {
     color: orangered
 }
 
+.hov3>h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #8C01B8;
+}
+
 .hov1>a>.btn {
     border: 2px solid orangered;
     color: orangered;
+}
+
+.hov3>a>.btn {
+    border: 2px solid #8C01B8;
+    color: #8C01B8;
 }
 
 .hov1>a>button:hover {
     color: orangered
 }
 
-.hov1>a>button>.material-icons {
+.hov3>a>button:hover {
+    color: #8C01B8
+}
+
+.hov1>a>button>.material-icons,
+.hov3>a>button>.material-icons {
     position: relative;
     top: .2em;
     margin-right: .5em;
@@ -754,6 +811,10 @@ label {
 }
 
 .project2:hover .hov1 {
+    opacity: 1
+}
+
+.project2:hover .hov3 {
     opacity: 1
 }
 
