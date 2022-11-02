@@ -710,9 +710,22 @@ label {
         top: 1em
     }
 
+    .project_info>.button>.ts {
+        position: relative;
+        top: 1em
+    }
+
     .call {
         position: relative;
         top: 1em
+    }
+
+    .hov,
+    .hov1,
+    .hov3 {
+        width: 100% !important;
+
+
     }
 }
 
@@ -722,12 +735,38 @@ label {
         top: 0em
     }
 
+    .project_info>.button>.ts {
+        position: relative;
+        top: 1em
+    }
+
+    .hov,
+    .hov1,
+    .hov3 {
+        width: 100% !important;
+
+
+    }
+
 }
 
 @media (min-width: 267px) and (max-width: 323px) {
     .project_info>.button>.bt {
         position: relative;
         top: 1em
+    }
+
+    .project_info>.button>.ts {
+        position: relative;
+        top: 1em
+    }
+
+    .hov,
+    .hov1,
+    .hov3 {
+        width: 100% !important;
+
+
     }
 
 }
